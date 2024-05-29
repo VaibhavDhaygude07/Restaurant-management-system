@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(pic1.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+.signinbox {
+    width: 30%;
+    height: 100%;
+    background: rgba(16, 3, 1, 0.968);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-45%, -45%);
+    box-sizing: border-box;
+    padding: 60px 25px;
+}
+
+.avatar {
+
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position:absolute;
+    top: -35px;
+    left: calc(50% - 50px);
+
+}
+
+h1 {
+    margin: 0;
+    padding: 0 0 30px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.signinbox p {
+    margin: 0;
+    padding: 0;
+    height: 25;
+    width: 25;
+    font-weight: bold;
+
+}
+
+.signinbox input {
+    width: 95%;
+    margin-bottom: 20px;
+
+}
+
+.signinbox input[type="text"],
+input[type="Password"] {
+    border: none;
+    border-bottom: 1px solid rgb(237, 229, 229);
+    background: transparent;
+    outline: none;
+    height: 77px;
+    color: rgb(234, 213, 213);
+    font-size: 22px;
+}
+
+.signinbox input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 45px;
+    background: #f20606;
+    color: rgb(23, 9, 9);
+    font-size: 30px;
+    border-radius: 40px;
+}
+
+.signinbox input[type="submit"]:hover {
+    cursor: pointer;
+    background: #f3e014;
+    color: #000;
+}
+
+.signinbox a {
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 20px;
+    color: darkgrey;
+
+}

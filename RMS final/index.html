@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Important to make website responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Website</title>
+
+    <!-- Link our CSS file -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body bgcolor="black">
+    <!-- Navbar Section Starts Here -->
+    <section class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="#" title="Logo">
+                    <img src="images/logo.png" alt="Restaurant Logo" class="img-responsive">
+                </a>
+            </div>
+
+            <div class="menu text-right">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="categories.html">Categories</a>
+                    </li>
+                    <li>
+                        <a href="foods.html">Menu</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact us</a>
+                    </li>
+                    <li>
+                        <a href="reservation.html">Reservation</a>
+                    </li>
+                    <li>
+                        <a href="Login.html">Login</a>
+                    </li>
+                    <li>
+                        <a href="signin.html">Sign up</a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="clearfix"></div>
+        </div>
+    </section>
+    <!-- Navbar Section Ends Here -->
+
+    <!-- fOOD sEARCH Section Starts Here -->
+    <section class="food-search text-center">
+        <div class="container">
+            
+            <form action="food-search.html" method="POST">
+                <input type="search" name="search" placeholder="Search for Food.." required>
+                <input type="submit" name="submit" value="Search" class="btn btn-primary">
+            </form>
+
+        </div>
+    </section>
+    <!-- fOOD sEARCH Section Ends Here -->
+
+    <!-- CAtegories Section Starts Here -->
+    <section class="categories">
+        <div class="container">
+            <h2 class="text-center">Explore Foods</h2>
+
+            <a href="category-foods.html">
+            <div class="box-3 float-container">
+                <img src="meduvada.jpeg" alt="Medu Vada" class="img-responsive img-curve">
+
+                <h3 class="float-text text-white">Breakfast</h3>
+            </div>
+            </a>
+
+            <a href="#">
+            <div class="box-3 float-container">
+                <img src="biryani.jpeg" alt="Burger" class="img-responsive img-curve">
+
+                <h3 class="float-text text-white">Lunch</h3>
+            </div>
+            </a>
+
+            <a href="#">
+            <div class="box-3 float-container">
+                <img src="butterch.jpeg" alt="Momo" class="img-responsive img-curve">
+
+                <h3 class="float-text text-white">Dinner</h3>
+            </div>
+            </a>
+
+            <div class="clearfix"></div>
+        </div>
+    </section>
+    <!-- Categories Section Ends Here -->
+
+    <!-- fOOD MEnu Section Starts Here -->
+    <section class="food-menu">
+        <div class="container">
+            <h2 class="text-center">Chef's Specials</h2>
+
+            <div class="food-menu-box">
+                <div class="food-menu-img">
+                    <img src="images/paneer_lababdar.jpg" alt="Paneer Lababdar" class="img-responsive img-curve">
+                </div>
+
+                <div class="food-menu-desc">
+                    <h4>Paneer Lababdar</h4>
+                    <p class="food-price">Rs.320</p>
+                    <p class="food-detail">
+                        Made with Tikka Sauce, Paneer, and organic vegetables.
+                    </p>
+                    <br>
+
+                    <a href="cart2.html" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+
+            <div class="food-menu-box">
+                <div class="food-menu-img">
+                    <img src="maharajathali.jpeg" alt="Maharaja Thali" class="img-responsive img-curve">
+                </div>
+
+                <div class="food-menu-desc">
+                    <h4>Maharaja Thali</h4>
+                    <p class="food-price">Rs.400</p>
+                    <p class="food-detail">
+                        Made with special and exotic Indian spices and cooked in Royality
+                    </p>
+                    <br>
+
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+
+            <div class="food-menu-box">
+                <div class="food-menu-img">
+                    <img src="images/murghbiryani.jpg" alt="Murgh Makhani Kofta Biryani" class="img-responsive img-curve">
+                </div>
+
+                <div class="food-menu-desc">
+                    <h4>Murgh Makhani Kofta Biryani</h4>
+                    <p class="food-price">Rs.350</p>
+                    <p class="food-detail">
+                        Minced lean kebabs are served in creamy butter gravy, layered on a bed of aromatic rice.
+                    </p>
+                    <br>
+
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+
+            <div class="food-menu-box">
+                <div class="food-menu-img">
+                    <img src="images/Chicken-Vindaloo.jpg" alt="Chicken Vindaloo" class="img-responsive img-curve">
+                </div>
+
+                <div class="food-menu-desc">
+                    <h4>Chicken Vindaloo</h4>
+                    <p class="food-price">Rs. 280</p>
+                    <p class="food-detail">
+                        Spicy & flavorful Portuguese Influenced Indian dish made by cooking chicken in vindaloo spice paste.
+                    </p>
+                    <br>
+
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+
+            <div class="food-menu-box">
+                <div class="food-menu-img">
+                    <img src="images/GajarKaHalwa.jpg" alt="Gajar Ka Halwa" class="img-responsive img-curve">
+                </div>
+
+                <div class="food-menu-desc">
+                    <h4>Gajar Ka Halwa</h4>
+                    <p class="food-price">Rs.180</p>
+                    <p class="food-detail">
+                        Utterly delicious traditional Indian sweet recipe made from grated Carrots.
+                    </p>
+                    <br>
+
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+
+            <div class="food-menu-box">
+                <div class="food-menu-img">
+                    <img src="images/Rasmalai.jpg" alt="Rasmalai" class="img-responsive img-curve">
+                </div>
+
+                <div class="food-menu-desc">
+                    <h4>Rasmalai</h4>
+                    <p class="food-price">Rs. 150</p>
+                    <p class="food-detail">
+                        A popular Bengali dessert this is a heavenly sweet made with milk.
+                    </p>
+                    <br>
+
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+
+
+            <div class="clearfix"></div>
+
+            
+
+        </div>
+
+        <p class="text-center">
+            <a href="#">See All Foods</a>
+        </p>
+    </section>
+    <!-- fOOD Menu Section Ends Here -->
+
+    <!-- social Section Starts Here -->
+    <section class="social">
+        <div class="container text-center">
+            <ul>
+               
+            </ul>
+        </div>
+    </section>
+    <!-- social Section Ends Here -->
+
+    <!-- footer Section Starts Here -->
+      <div class="container">
+        <div class="row-flex">
+          <div class="flex-column-form">
+            <h3>
+              Make a booking
+            </h3>
+          <form class="media-centered">
+              <div class="form-group">
+                <p>
+                  Please leave your number we will call to make a reservation
+                </p>
+                <input type="name" class="form-control" id="exampleInputName1" aria-describedby="nameHelp" placeholder="Enter your name">
+              </div>
+              <div class="form-group">
+                <input type="number" class="form-control" id="exampleInputphoneNumber1" placeholder="Enter your phone number">
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+          </div>
+          <div class="opening-time">
+            <h3>
+              Opening times
+            </h3>
+            <p>
+             <span>Monday—Thursday: 08:00 — 22:00</span> 
+             <span>Friday—Saturday: 08:00 — 23:00 </span>
+             <span>Sunday: 08:00 — 00:00</span>
+            </p>
+          </div>
+          <div class="contact-adress">
+            <h3>
+              Contact
+            </h3>
+            <p>
+              <span>+91 87687 45767</span>
+              <span>15-316 Sector 5,</span>
+              <span>New Panvel,402 110</span>
+            </p>
+          </div>
+        </div>
+        </div>
+    
+    
+    
+      <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+     
+      </body>
+      
+    </html> 
+   
+    <!-- footer Section Ends Here -->
+
+</body>
+</html>

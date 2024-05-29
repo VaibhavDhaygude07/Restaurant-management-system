@@ -1,0 +1,114 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Arial,Helvetica, sans-serif;
+}
+
+.wrapper{
+    
+    padding:1%;
+    width:80%;
+    margin: 0 auto;
+}
+.text-center{
+    text-align: center;
+}
+.clearfix{
+    float: none;
+    clear: both;
+}
+.tbl-full{
+    width: 100%;
+}
+.tbl-30{
+    width: 30%;
+}
+table tr th{
+    border-bottom:1px solid rgb(7, 7, 7);
+    padding: 1%;
+    text-align: left;
+}
+table tr td{
+    padding: 1%;
+}
+
+.btn-primary{
+    background-color: rgb(10, 10, 249);
+    padding: 5px;
+    color:rgb(224, 213, 213);
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-primary:hover {
+    background-color: rgb(142, 14, 222);
+
+}
+.btn-secondary{
+    background-color: rgb(8, 241, 16);
+    padding: 1%;
+    color:rgb(17, 17, 17);
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-secondary:hover {
+    background-color: hwb(130 79% 16% / 0.742);
+    
+}
+.btn-danger{
+    background-color: rgb(241, 18, 18);
+    padding: 1%;
+    color:rgb(224, 213, 213);
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-danger:hover {
+    background-color: black;
+    
+}
+.menu{
+    border-bottom: 1px solid grey;
+}
+.menu ul{
+    border-bottom:1px solid rgb(13, 13, 12);
+}
+
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display:inline;
+    padding:1%;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color:#ff4757;
+}
+.menu ul li a:hover{
+    color: rgb(165, 163, 163);
+}
+.main-content{
+    background-color: rgb(191, 43, 43);
+}
+.main-content{
+    background-color: rgb(191, 184, 184);
+    padding:3% 0;
+}
+.col-4{
+    width:10%;
+    background-color: white;
+    margin:0.5%;
+    padding:1%;
+    float: left;
+}
+.footer{
+    background-color: black;
+    color:white;
+}
+/*css for login*/
+.login{
+    border: 1px solid grey;
+    width: 30%;
+    margin: 10% auto;
+    padding: 2%;
+}
